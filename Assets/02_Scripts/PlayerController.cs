@@ -4,7 +4,7 @@ public class PlayerController : MonoBehaviour
 {
     public InputReader inputReader;
 
-    [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private float moveSpeed = 3f;
 
     private Rigidbody rb;
     private Transform playerTransform;
